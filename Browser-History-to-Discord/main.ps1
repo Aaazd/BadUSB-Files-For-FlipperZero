@@ -23,7 +23,7 @@ $Paths = @{
 }
 
 # Define browsers and data
-$Browsers = @('chrome', 'edge', 'firefox', 'opera')
+$Browsers = @('chrome', 'edge', 'firefox', 'firefox_nightly', 'opera')
 $DataValues = @('history', 'bookmarks')
 
 foreach ($Browser in $Browsers) {
